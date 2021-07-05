@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BC1C2B
+"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="#FFFFFF
+"
+        android:textStyle="normal"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="91px"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masai School is a 21st century coding school that cares about you!"
+        android:textColor="#FFFFFF
+"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_marginLeft="38px"
+        android:layout_marginTop="91px"
+        />
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/simpleImageview"
+        android:layout_marginTop="311px"
+        android:layout_marginLeft="120px"
+        android:drawableStart="@drawable/masai1"
+        />
+    <Button
+        android:layout_width="800px"
+        android:layout_height="150px"
+        android:text="Sign in"
+        android:textColor="#BC1C2B"
+        android:id="@+id/btnLauchThirdActivity"
+        android:layout_marginTop="101px"
+        android:layout_marginLeft="78px"
+
+        android:background="#FFFFFF
+"
+
+        />
+    <Button
+        android:layout_width="800px"
+        android:layout_height="150px"
+        android:text="Create an Account"
+        android:textColor="#FFFFFF
+"
+        android:id="@+id/btnLauchActivity"
+        android:layout_marginTop="101px"
+        android:layout_marginLeft="78px"
+
+        android:background="#000000
+"
+
+
+        />
+
+</LinearLayout>

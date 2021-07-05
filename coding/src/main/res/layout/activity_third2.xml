@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".SecondActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight ="0.3"
+        android:orientation="vertical"
+        android:background = "#BC1C2B
+"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/vector"
+            android:layout_marginTop="38px"
+            android:text="SIGN IN"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="#FFFFFF
+"
+            android:drawablePadding="250dp"
+            android:layout_marginLeft="19px"
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Welcome back"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#BC1C2B
+"
+        android:layout_marginLeft="22px"
+        android:layout_marginTop="30px"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Continue to Sign Up!"
+        android:textStyle="normal"
+        android:textSize="22sp"
+        android:textColor="#BC1C2B
+"
+        android:layout_marginLeft="22px"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Name"
+        android:textStyle="normal"
+        android:textSize="22sp"
+        android:textColor="#A2A2A2
+
+"
+
+        android:layout_marginLeft="24px"
+        android:layout_marginTop="60px"
+        />
+
+
+    <EditText
+        android:layout_width="1000px"
+        android:layout_height="200px"
+        android:hint="Enter the name"
+
+
+
+        android:backgroundTint="#A2A2A2"
+
+        android:layout_marginLeft="24px"
+        android:layout_marginTop="20px"
+        >
+
+    </EditText>
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Password"
+        android:textStyle="normal"
+        android:textSize="22sp"
+        android:textColor="#A2A2A2
+
+"
+
+        android:layout_marginLeft="24px"
+        android:layout_marginTop="30px"
+        />
+
+
+    <EditText
+        android:layout_width="1000px"
+        android:layout_height="200px"
+        android:hint="Enter the Password"
+
+
+
+        android:backgroundTint="#A2A2A2"
+
+        android:layout_marginLeft="24px"
+        android:layout_marginTop="20px"
+        >
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:layout_gravity="end"
+
+
+        android:textColor="#BC1C2B
+"
+        >
+
+    </TextView>
+    <Button
+        android:layout_width="800px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="Sign In"
+        android:textSize="19sp"
+        android:layout_marginTop="100px"
+        android:backgroundTint="#BC1C2B
+
+"
+        android:id="@+id/btnLauchActivity2"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not have an Account?"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#A2A2A2"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+
+        android:textColor="#BC1C2B
+"
+        >
+
+    </TextView>
+</LinearLayout>
