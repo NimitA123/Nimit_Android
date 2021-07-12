@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum = "2"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#079527
+"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/arrow"
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/search"
+            android:layout_alignParentEnd="true"
+
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/play"
+            android:layout_centerInParent="true"
+
+
+            >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="86dp"
+            android:id = "@+id/rec1"
+            android:background="@drawable/rectangle"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#14AE24
+"
+            android:layout_marginTop="39dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="18dp"
+            android:backgroundTint="#C4C4C4
+"
+            android:id="@+id/rec2"
+            android:background="@drawable/rectangle"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="49dp"
+            android:layout_toEndOf="@id/rec1"
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="15dp"
+            android:backgroundTint="#C4C4C4
+"
+            android:id="@+id/rec3"
+            android:background="@drawable/rectangle"
+
+            android:layout_below="@id/rec2"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="13dp"
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="11dp"
+            android:backgroundTint="#C4C4C4
+"
+            android:id="@+id/rec4"
+            android:background="@drawable/rectangle"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="11dp"
+            android:layout_below="@id/rec3"
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="157dp"
+            android:layout_height="29dp"
+            android:backgroundTint="#000
+
+"
+
+            android:background="@drawable/rectangle"
+            android:text="TRY NOW"
+            android:textColor="#079527
+"
+
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginLeft="19dp"
+            android:id="@+id/rec5"
+
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="29dp"
+            android:backgroundTint=" #079527
+"
+
+
+            android:id="@+id/rec6"
+            android:background="@drawable/rectangle"
+            android:text="INSTALL"
+            android:textColor="#FFFFFF
+"
+
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginTop="171dp"
+            android:layout_marginLeft="195dp"
+
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:background="@drawable/ellipse"
+            android:backgroundTint="#079527
+"
+            android:layout_marginTop="253dp"
+            android:layout_marginLeft="57dp"
+            />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:background="@drawable/ellipse"
+            android:backgroundTint="#079527
+"
+            android:layout_marginTop="253dp"
+            android:layout_marginLeft="160dp"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:background="@drawable/ellipse"
+            android:backgroundTint="#079527
+"
+            android:layout_marginTop="253dp"
+            android:layout_marginLeft="257dp"
+            />
+        />
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="#C4C4C4"
+
+
+            android:layout_marginTop="372dp"
+            android:layout_marginLeft="23dp"
+            />
+        <TextView
+            android:layout_width="278dp"
+            android:layout_height="24dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="#C4C4C4"
+
+
+            android:layout_marginTop="428dp"
+            android:layout_marginLeft="39dp"
+            />
+
+        <TextView
+            android:layout_width="258dp"
+            android:layout_height="24dp"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="#C4C4C4"
+
+
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="39dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
