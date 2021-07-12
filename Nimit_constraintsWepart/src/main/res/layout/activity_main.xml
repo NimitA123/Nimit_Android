@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="119dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:background="#0583EA
+"
+      android:id = "@+id/view"
+      />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/back"
+        android:layout_margin = "19dp"
+        android:id = "@+id/tv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text = "Choose a daily goal"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tv"
+        android:layout_margin="19dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+
+        android:layout_marginTop="50dp"
+        android:id = "@+id/card1"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Causal"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:padding ="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:layout_gravity="end|end"
+            android:layout_margin="13dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="13"
+            android:textColor="@color/white"
+            android:padding ="25dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card1"
+
+       
+        android:layout_marginTop="50dp"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Steady"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:padding ="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:layout_gravity="end|end"
+            android:layout_margin="13dp"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="25"
+            android:textColor="@color/white"
+            android:padding ="25dp"
+            />
+    </androidx.cardview.widget.CardView>
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="110dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     android:background="#0583EA
+"
+     />
+</androidx.constraintlayout.widget.ConstraintLayout>
