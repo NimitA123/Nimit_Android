@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3B5998
+"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:drawableRight="@drawable/group"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="151dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username or email id"
+        android:textColorHint="#FFFFFF
+"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="#FFFFFF
+"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textColorHint="#FFFFFF
+"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFFFFF
+"
+        >
+
+    </EditText>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text = "LOGIN"
+    android:layout_marginLeft="156dp"
+    android:layout_marginTop="64dp"
+    android:textColor="#FFFFFF
+"
+    android:textSize="18sp"
+    android:textStyle="normal"
+    >
+
+</TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "SIGN UP FOR FACEBOOK"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="137dp"
+        android:textColor="#FFFFFF
+"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "FORGOT PASSWORD?"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="18dp"
+        android:textColor="#FFFFFF
+"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        >
+
+    </TextView>
+
+
+
+</LinearLayout>
