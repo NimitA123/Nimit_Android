@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rapido App</string>
+    <string name="permission">To have a comfortable ride experience with Rapido, please allow us the following permission</string>
+    <string name="quotes">Location: To locate you and get rides easily</string>
+    <string name="account">To verify your account and secure it </string>
+</resources>
+
